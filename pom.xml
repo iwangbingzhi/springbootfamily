@@ -20,6 +20,7 @@
     <modules>
         <module>springbootmongo</module>
         <module>springbootmongorepository</module>
+        <module>springbootwithredis</module>
     </modules>
 
     <dependencies>
@@ -43,6 +44,12 @@
         <dependency>
             <groupId>com.springbootrepository</groupId>
             <artifactId>springbootmongorepository</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ispringbootredis</groupId>
+            <artifactId>springbootwithredis</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
